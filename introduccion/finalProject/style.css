@@ -1,0 +1,66 @@
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.flex-item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 20px;
+  max-width: 300px;
+  border: 2px solid #333;
+  padding: 0 20px;
+}
+
+.flex-item:hover {
+  border-color: #71a154;
+  -webkit-box-shadow: 0px 0px 15px #317124;
+          box-shadow: 0px 0px 15px #317124;
+}
+
+.flex-item:focus {
+  border-color: #71a154;
+  -webkit-box-shadow: 0px 0px 15px #317124;
+          box-shadow: 0px 0px 15px #317124;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+h3 {
+  color: #999;
+}
+
+p b {
+  color: #71a154;
+}
+
+.img-key {
+  width: 300px;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+  paddding: 50px;
+}
+
+input[type="submit"] {
+  background-color: #317124;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
